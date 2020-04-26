@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <title>Enoch Chejieh</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+   	    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"crossorigin="anonymous"/>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'style/style.css' %}">
+    </head>
+    <body>
+        <div class="container">
+        	<div class="row">
+        		<div class="col-lg-3">
+ 				  <div class="card text-center border-info">
+        			<div class="card-body h-100 " id="profile">
+        				<img id="image" src="{% static 'image/user.png' %}" type="image/png" >
+        				<hr>
+        				<h4>Hi I'm Enoch!</h4>
+        				<p>I love coding, doing research and collaborating</p>
+        			</div>
+        		  </div>
+        		</div>
+        	
+        	
+        		<div class="col-lg-9">
+        			<div class="card text-center border-info" id="card2" >
+        				<div class="card-body h-100">
+        					<h4 class="h4">My Experience as a Developer</h4>
+        					<hr>
+
+        					<p style="text-align: left;">Software Developer Intern at Syscomptech Communications Ltd</p>
+        					<br>
+							<p style="text-align: left;">Debugged and carried out performance analysis of code, systems and assisted in defining, automating, and executing development tests in support of the feature/functionality being developed. Fixed defects to increase familiarity with the software architecture. <a href="https://drive.google.com/file/d/1gyOOnbMiqnpw7nMYsG374Ve4nP_eqQHB/view">Download CV</a></p>
+        					<ul class="social-links" style="float: left; position: relative; left: -40px; ">
+        						<li style="list-style-type: none; display: inline-block;">
+        							<a target="_blank" href="https://github.com/ECJ222"><img style="height:20px; width:20px;" src="{% static 'image/github.png'%}" id="img2"></a>
+        						</li>
+        						<li style="list-style-type: none; display: inline-block;">
+        							<a href="https://www.linkedin.com/in/enoch-chejieh-a39652155/">
+        								<img  style="height:20px; width:20px;" src="{% static 'image/linkedin.png'%}" id="img1">
+        							</a>
+        						</li>
+        					</ul>
+        					
+        				</div>
+        			</div>
+        		</div>
+        		</div>
+        		<br>
+        		<div class="row">
+        			<div class="col-lg-6">
+        				<div class="card text-center" id="h5">
+        					<div class="card-body h-100">
+        						<h5 class="h4">What I Know</h5>
+        						<hr>
+        						<p style="text-align: left;">Python, Django, HTML/CSS, JavaScript, VueJs, PostgreSQL, MongoDB, NodeJs, AWS and APIs such as google maps, a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+        						<br>
+        						<p style="text-align: left;">PS: Working on Machine Learning.</p>
+
+        					
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="card text-center" id="h5">
+        					<div class="card-body h-100">
+        						<h5 class="h4">How I Learn</h5>
+        						<hr>
+        						<p style="text-align: left;">Reverse Engineer & Build Ugly Prototypes First.</p>
+        						<br>
+								<p style="text-align: left;">I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+
+        					
+        					</div>
+        				</div>
+        			</div>
+            	</div>
+            	<br>
+            	<div class="row">
+        			<div class="col-lg-6">
+        				<div class="card text-center" style="width: 900px; height: 279px;">
+        					<div class="card-body h-100">
+        						<h5 class="h4">My Projects</h5>
+        						<hr>
+        						<p style="font-size: 1.9rem; text-align: left;">Notepad</p>
+        						<br>
+        						<p style="text-align: left;">Full Stack Web Application built with Django and Vuejs, whereby Vuejs was used for the frontend and Django DRF used for the backend to create the api and PostgreSQL used as the database. </p>
+        						<br>
+        						<p style="font-size: 1.9rem; text-align: left;">Blogger</p>
+        						<br>
+        						<p style="text-align: left;">Blog built with Django and PostgreSQL</p>
+
+        						
+
+        						
+
+        					
+        					</div>
+        				</div>
+        			</div>
+        			
+            	</div>
+
+
+
+    </body>
+</html>
